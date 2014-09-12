@@ -202,7 +202,7 @@ void loop()
     }
     else {
       if (++lastIncommingMicroSec > 200) {
-        digitalWrite(LED, LOW);  // set NanoBoard LED off
+//        digitalWrite(LED, LOW);  // set NanoBoard LED off
       }
     }
   }
@@ -220,8 +220,8 @@ void readSensors()
      digitalWrite(12, HIGH);
   }
   else {
-     digitalWrite(13, LOW);
-     digitalWrite(12, LOW);
+//     digitalWrite(13, LOW);
+//     digitalWrite(12, LOW);
   }
 
   if (motorMode == 2) {  // if mode!=0 then two motor
